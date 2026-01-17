@@ -1,0 +1,6 @@
+gradle.settingsEvaluated { settings ->
+    settings.dependencyResolutionManagement {
+        it.dependencyAccessorsEnabled = false
+    }
+}
+
